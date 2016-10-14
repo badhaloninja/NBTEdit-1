@@ -18,12 +18,12 @@ public class CommandNbtEdit extends CommandBase {
 
 	@Override
 	public String getCommandName() {
-		return "nbtedit";
+		return "nbteditor";
 	}
 
 	@Override
 	public String getCommandUsage(ICommandSender sender) {
-		return "/nbtedit [<x> <y> <z> [<dim>]]";
+		return "/nbteditor [<x> <y> <z> [<dim>]]";
 	}
 	@Override
 	public void processCommand(ICommandSender sender, String[] args) throws CommandException {
